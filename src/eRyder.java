@@ -1,11 +1,11 @@
 public class eRyder {
-public String bikeId;
-public int batteryLevel;
-public boolean isAvailable;
-public double kmDriven;
+private String bikeId;
+private int batteryLevel;
+private boolean isAvailable;
+private double kmDriven;
 
 public eRyder(){
-    bikeId ="Unknown";
+    bikeId ="A0000";
     batteryLevel =0;
     isAvailable = false;
     kmDriven =0.0;
